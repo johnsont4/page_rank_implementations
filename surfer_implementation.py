@@ -21,10 +21,10 @@ def run_page_rank(graph, damp):
 
 def main():
     graph = Graph()
-    initialize_graph(graph, 'graph.txt')
+    initialize_graph(graph, 'med_graph.txt')
 
     run_page_rank(graph, 0.15) # change damper to whatever you want (0,1)
-    
+
     for node in graph.nodes:
         print("Node's name: ", node.name)
         print("Page rank: ", node.pagerank)
