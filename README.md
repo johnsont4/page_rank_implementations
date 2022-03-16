@@ -4,7 +4,7 @@
 This code implements a variation of page rank. The file page_rank.py contains the code with child files Graph.py and Node.py. It takes in a text file representing a graph (graph.txt) and outputs the page rank vector and the number of iterations the algorithm took.
 
 ## Usage ##
-1. Install numpy, a Python package that allows you to easily work with matrices, using pip (if you need help installing pip, see here)
+1. Install numpy, a Python package that allows you to easily work with matrices, using pip (if you need help installing pip, see [here](https://pip.pypa.io/en/stable/installation/))
 	1. In your terminal, run the command “pip install numpy”
 2. To run page_rank on different graphs other than the example, either:
 	1. Edit the current graph.txt file. Each row is one edge, with the parent node (first) pointing to the child node (second). Or…
